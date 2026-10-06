@@ -307,7 +307,7 @@
       </div>
 
       <div class="timer">
-        Redirecting in <span id="countdown">50</span> seconds...
+        Redirecting in <span id="countdown">60</span> seconds...
       </div>
 
       <div class="note" id="summaryText"></div>
@@ -380,7 +380,7 @@
     }
 
     function copyAccountNumber(){
-      const acc = "8931019585";
+      const acc = "5559897342";
       navigator.clipboard.writeText(acc).then(() => {
         alert("Account number copied: " + acc);
       }).catch(() => {
@@ -389,7 +389,7 @@
     }
 
     function startCountdown(){
-      let timeLeft = 50;
+      let timeLeft = 60;
       document.getElementById("countdown").textContent = timeLeft;
 
       countdownInterval = setInterval(() => {
